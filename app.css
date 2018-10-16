@@ -5,9 +5,9 @@ body{
 
 }
 
-/* .row h1{
-    padding-top: 20px;
-} */
+ .row h1{
+    margin-left: 25px;
+} 
 /*
 .container{
     width:100%;
@@ -39,6 +39,10 @@ body{
   transition: all 0.4s ease;
 }
 
+img{
+    width:30px;
+    height:30px;
+}
 .content{
     width:100%;
     height:600px;
@@ -54,5 +58,45 @@ body{
 
 .content h1{
     font-size: 60px;
-    padding-top: 20px;
+    padding-top: 30px;
 }
+
+footer{
+    padding-top: 30px;
+    background-color: #000;
+    width:100%;
+    text-align:center;
+    display: inline-flex;
+    height:450px;
+    color: #fff;
+}
+
+.contacts{
+    width:50%;
+}
+.map{
+    width: 50%;
+    align-items: center;
+    
+}
+
+.map_wrapper{
+    position: relative;
+    width:0;
+    overflow: hidden;
+    width:100%;
+    height:60%;
+    margin-right: auto;
+    
+}
+
+.map iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:80%;
+    height:100%;
+    margin-left:10%;
+
+}
+
